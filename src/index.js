@@ -4,8 +4,9 @@ import './index.css'
 import Calculator from './main/Calculator'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div>
+    <h1>Calculadora</h1>
     <Calculator />
-  </React.StrictMode>,
+  </div>,
   document.getElementById('root')
 )
